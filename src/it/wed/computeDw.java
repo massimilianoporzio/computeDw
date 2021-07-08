@@ -20,7 +20,7 @@ public class computeDw {
         //queryExample();
         //mutationExample();
         //VA SISTEMATA PER LE PERFOMANCES!!!
-        File fileData = new File("E:\\DW\\dataPatient.txt");
+        File fileData = new File("D:\\DW\\dataPatient.txt");
         FileWriter fr = null;
         BufferedWriter br = null;
 
@@ -97,7 +97,7 @@ public class computeDw {
                     br = new BufferedWriter(fr);
                     br.newLine();
                     String text = nomeFile+"\t"+IJ.d2s(waterEq[1],2)+"\t"+IJ.d2s(waterEq[0],2)+"\t"+IJ.d2s(ssde,2)+
-                            "\t"+IJ.d2s(ctdiVol,1)+"\t"+IJ.d2s(waterEq[2],2);
+                            "\t"+IJ.d2s(ctdiVol,1);
                     br.write(text);
 
 

@@ -7,6 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="net.imagej:ij:1.53j" level="project" />
+    <orderEntry type="library" name="net.imagej:ij:1.50b" level="project" />
   </component>
 </module>
